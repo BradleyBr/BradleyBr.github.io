@@ -6,7 +6,9 @@ html {
 /*
 header styles
 */
-
+#headernav a {
+  margin-right: 1rem;
+}
 
 /*
 jumbotron styles
@@ -22,13 +24,49 @@ jumbotron styles
 
 
 /*
+Skills styles
+*/
+
+#flexcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+#resume i {
+  vertical-align: middle;
+}
+
+
+/*
 portfolio styles
 */
 
-#portfolio {
-  background-color: #efefed;
+.imagecontainer {
+  overflow: hidden;
 }
 
-/*.img-responsive {
-  max-height: 200px;
-}*/
+.tog {
+  opacity: 0.6;
+  transition: 0.5s, 0.5s;
+}
+
+
+.tog:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+#github {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/*
+footer styles
+*/
+
+footer i {
+  vertical-align: middle;
+}
