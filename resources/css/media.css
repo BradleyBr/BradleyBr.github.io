@@ -75,7 +75,8 @@ about me media queries
 
   #contact {
     bottom: 4vh;
-    left: 20vw;
+    left: 6vw;
+    padding: 1rem 1rem;
   }
 
   #infobox {
@@ -87,6 +88,10 @@ about me media queries
   }
 
   #aboutme p {
+    font-size: 1.2rem;
+  }
+
+  #skills ul li, #skills p {
     font-size: 1.2rem;
   }
 }
