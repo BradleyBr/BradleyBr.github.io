@@ -103,15 +103,19 @@ about body styles
 }
 
 #contact {
-  position: relative;
-  top: 10rem;
-  right: 35rem;
+  position: absolute;
+  bottom: 7vh;
+  left: 10vw;
   padding: 1.5rem 1.5rem;
   color: #7A6D5F;
   background-color: #2A202B;
   border-radius: 1rem 2rem;
 }
 
-/*
-Portfolio body styles
-*/
+#contact i {
+  padding-right: 0.5rem;
+}
+
+#contact p {
+  font-size: 1.3rem;
+}

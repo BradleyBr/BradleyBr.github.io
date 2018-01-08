@@ -1,0 +1,106 @@
+/*
+about me media queries
+*/
+
+
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  #abouttext h1 {
+    font-size: 3rem;
+  }
+
+  #aboutme p {
+    font-size: 1.4rem;
+  }
+
+  #skills ul li, #skills p {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  #contact {
+    bottom: 7vh;
+    left: 29vw;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  #contact {
+    bottom: 4vh;
+    left: 20vw;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .navbar-right {
+    float: none;
+    margin-right: 0;
+
+  }
+
+  #infobox {
+    padding-left: 8rem;
+  }
+
+  #abouttext h1 {
+    font-size: 3rem;
+  }
+
+  #aboutme p {
+    font-size: 1.4rem;
+  }
+
+  #skills ul li, #skills p {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+  #contact {
+    bottom: 4vh;
+    left: 20vw;
+  }
+
+  #infobox {
+    padding-left: 3rem;
+  }
+
+  #abouttext h1 {
+    font-size: 2rem;
+  }
+
+  #aboutme p {
+    font-size: 1.2rem;
+  }
+}
+
+/*
+Portfolio media queries
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+  .portheader {
+    padding-top: 90px;
+  }
+
+  .textbox {
+    top: 50px;
+  }
+}
