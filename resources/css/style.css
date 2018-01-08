@@ -2,6 +2,14 @@ html {
   font-size: 16px;
 }
 
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lora", serif;
+
+}
 
 /*
 header styles
@@ -19,30 +27,33 @@ jumbotron styles
 }
 
 .jumbotron h1 {
-  font-size: 3rem;
+  font-size: 4rem;
+  font-weight: 500;
 }
 
-
-/*
-Skills styles
-*/
-
-#flexcontainer {
-  display: flex;
-  justify-content: center;
+.jumbotron h4 {
+  font-family: "Open Sans", sans-serif;
 }
-
-#resume i {
-  vertical-align: middle;
-}
-
 
 /*
 portfolio styles
 */
 
+.portheader {
+  text-align: center;
+}
+
+.producttitle1, .producttitle2, .producttitle3 {
+  text-align: center;
+}
+
+#projects h1 {
+  font-size: 4rem;
+}
+
 .imagecontainer {
   overflow: hidden;
+  cursor: pointer;
 }
 
 .tog {
@@ -58,15 +69,22 @@ portfolio styles
 
 #github {
   display: flex;
+  position: absolute;
   flex-direction: column;
   align-items: center;
+  top: 86vh;
+  left: 50vw;
+  right: 50vw;
 }
 
+.textbox {
+  top: 126px;
+}
 
-/*
-footer styles
-*/
+.textbox p {
+  font-size: 1.5rem;
+}
 
-footer i {
-  vertical-align: middle;
+.portheader {
+  padding-bottom: 2rem;
 }

@@ -1,0 +1,117 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #9d9d9d;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: "Lora", serif;
+  font-weight: 700;
+
+}
+
+a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+/*
+header styles
+*/
+
+.navbar-inverse {
+  background-color: #181B1C;
+}
+
+nav h2 {
+  padding: 9px;
+}
+
+#linkbar p {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+/*
+about body styles
+*/
+
+#bodycontent {
+  background-color: #10181C;
+  padding-top: 7rem;
+  height: 100vh;
+  width: 100vw;
+}
+
+#abouttext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body1toggle {
+  display: none!important;
+}
+
+.body2toggle {
+  display: none!important;
+}
+
+#abouttext h1 {
+  font-size: 4rem;
+}
+
+#aboutme p {
+  font-size: 2rem;
+}
+
+#infobox {
+  padding-top: 7rem;
+  padding-left: 12rem;
+}
+
+#skills {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+
+#skills ul li, #skills p {
+  font-size: 1.5rem;
+}
+
+#techskills {
+  padding-bottom: 1rem;
+}
+
+#contact {
+  position: relative;
+  top: 10rem;
+  right: 35rem;
+  padding: 1.5rem 1.5rem;
+  color: #7A6D5F;
+  background-color: #2A202B;
+  border-radius: 1rem 2rem;
+}
+
+/*
+Portfolio body styles
+*/
